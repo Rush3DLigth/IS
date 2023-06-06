@@ -6,3 +6,8 @@ streamlit-pandas-profiling
 Flask
 scikit-learn
 pip-upgrade
+yellowbrick
+pandas-profiling
+more-itertools
+scipy
+random11
