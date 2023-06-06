@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import io
 import requests
-#from sklearn.cluster import KMeans
+from sklearn.cluster import KMeans
 from yellowbrick.cluster import KElbowVisualizer
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
