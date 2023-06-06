@@ -3,7 +3,6 @@ pandas
 numpy
 pandas-profiling
 streamlit-pandas-profiling
-pandas-profiling
 Flask
 scikit-learn
 pip-upgrade
