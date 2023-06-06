@@ -1,14 +1,14 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-from pandas_profiling import ProfileReport
+#from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 #from dataprep.eda import plot_correlation
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import io
 import requests
-from sklearn.cluster import KMeans
+#from sklearn.cluster import KMeans
 from yellowbrick.cluster import KElbowVisualizer
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
