@@ -10,5 +10,3 @@ yellowbrick
 more-itertools
 scipy
 random11
-requests
-io
