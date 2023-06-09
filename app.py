@@ -278,7 +278,7 @@ if uploaded_file is not None:
 
     def k_means_elm(data, no_of_clusters):
         print("Running k-means")
-        st.header('**ELM Model on K-Means**')
+        #st.header('**ELM Model on K-Means**')
         data = np.array(data);
         kmeans = KMeans(no_of_clusters, random_state=0).fit_predict(data)
         #for i in range(0,178):
@@ -302,7 +302,7 @@ if uploaded_file is not None:
         print (l);
         max3 = max(l);
         ##print("Clustering Accuracy = "+str(((max1+max2+max3)/181*100))+ " % ")
-        st.write("Clustering Accuracy = "+str(((max1+max2+max3)/181*100))+ " % ")
+        #st.write("Clustering Accuracy = "+str(((max1+max2+max3)/178*100))+ " % ")
         
     #ELM Model
     def regression_matrix(input_array,input_hidden_weights,bias):
