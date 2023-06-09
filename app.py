@@ -357,7 +357,7 @@ if uploaded_file is not None:
 
     #Parameter Input
     input_array = np.array(input_array);
-    no_of_inputs = 181;
+    no_of_inputs = 178;
     no_of_input_neurons = input_dim;
     no_of_hidden_neurons = 200;
     no_of_output_neurons = 100;
