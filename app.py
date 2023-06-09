@@ -264,14 +264,14 @@ if uploaded_file is not None:
     plt.tight_layout()
     st.write(fig)
 
-    #class_df = pd.read_excel('https://docs.google.com/spreadsheets/d/192dA4VZGReNwf-_PtuMYOG1RFWeHDwZY/edit?usp=share_link&ouid=111292030058453767559&rtpof=true&sd=true')
+    class_df = pd.read_excel('https://docs.google.com/spreadsheets/d/192dA4VZGReNwf-_PtuMYOG1RFWeHDwZY/edit?usp=share_link&ouid=111292030058453767559&rtpof=true&sd=true')
     #class_df.head()
     ##convert dataframe to numpy array
 
-    #class_df = class_df.drop(["label"], axis=1)
+    class_df = class_df.drop(["label"], axis=1)
     ##convert dataframe to numpy array
-    #arr_rfm = class_df.to_numpy()
-    arr_rfm = temp_rfm.to_numpy()
+    arr_rfm = class_df.to_numpy()
+    #arr_rfm = temp_rfm.to_numpy()
     ##st.write(type(arr_rfm))
 
     def k_means_elm(data, no_of_clusters):
