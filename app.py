@@ -264,7 +264,9 @@ if uploaded_file is not None:
     plt.tight_layout()
     st.write(fig)
 
-    class_df = pd.read_excel('https://docs.google.com/spreadsheets/d/192dA4VZGReNwf-_PtuMYOG1RFWeHDwZY/edit?usp=share_link&ouid=111292030058453767559&rtpof=true&sd=true')
+    #https://raw.githubusercontent.com/Rush3DLigth/IS/main/Class_2019.csv
+    #class_df = pd.read_excel('https://docs.google.com/spreadsheets/d/192dA4VZGReNwf-_PtuMYOG1RFWeHDwZY/edit?usp=share_link&ouid=111292030058453767559&rtpof=true&sd=true')
+    class_df = pd.read_csv('https://raw.githubusercontent.com/Rush3DLigth/IS/main/Class_2019.csv')
     #class_df.head()
     ##convert dataframe to numpy array
 
