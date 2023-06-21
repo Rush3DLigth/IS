@@ -1,7 +1,7 @@
-git+https://github.com/huggingface/transformers
-librosa
-ffmpeg
-torchaudio ipywebrtc notebook
--q gradio
-pytube
+!pip install git+https://github.com/huggingface/transformers
+!pip install librosa
+!sudo apt install ffmpeg
+!pip install torchaudio ipywebrtc notebook
+!pip install -q gradio
+!pip install pytube
 !jupyter nbextension enable --py widgetsnbextension
