@@ -1,12 +1,7 @@
-streamlit
-pandas
-numpy
-pandas-profiling
-streamlit-pandas-profiling
-Flask
-scikit-learn
-pip-upgrade
-yellowbrick
-more-itertools
-scipy
-random11
+git+https://github.com/huggingface/transformers
+librosa
+ffmpeg
+torchaudio ipywebrtc notebook
+-q gradio
+pytube
+!jupyter nbextension enable --py widgetsnbextension
